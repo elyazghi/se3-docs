@@ -7,7 +7,7 @@ On se propose ici de décrire la mise en place d'une imprimante réseau sur un r
 
 Dans cet exemple et sur les copies d'écran, il s'agit d'une imprimante réseau HP Laserjet 1022n dont l'adresse IP est 172.16.108.100.
 
-Pour l'ensemble des étapes qui suivent, on utilisera un poste sous Windows 4 64 bits, faisant partie du même parc que l'imprimante, et sur lequel on aura ouvert la session "admin".
+Pour l'ensemble des étapes qui suivent, on utilisera un poste sous Windows 7 64 bits, faisant partie du même parc que l'imprimante, et sur lequel on aura ouvert la session "admin".
 
 
 #Trouver les drivers
@@ -52,7 +52,7 @@ Ouvrir la console MMC en lançant la commande mmc.exe
 
 ![Consolle MMC vide](images/imprimantes_console_mmc_vide.png)
 
-##Ajouter le module de gestion des imprimantes
+##Ajouter le module de gestion des imprimantes (le composant enfichable "Gestion de l'impression)
 Menu `Fichier` -> `Ajouter/Supprimer un composant logiciel enfichable`
 
 Sélectionner `Gestion de l'impression` dans la colonne de gauche, cliquer sur `Ajouter`, puis valider.
@@ -87,7 +87,7 @@ Cliquer sur `Suivant`.
 
 Choisir le pilote précédemment téléchargé et décompressé correspondant à l'architecture sélectionné, et suivre les étapes d'installation.
 
-Une fois le pilote 32 bits instalé, recommencer la procédure pur le pilote 64 bits.
+Une fois le pilote 32 bits installé, recommencer la procédure pour le pilote 64 bits.
 
 Attention : les deux pilotes doivent porter le même nom.
 
